@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Patterson Pump (Singapore)</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="icon" href="./img/favicon.png"> 
-	<script src="https://kit.fontawesome.com/673e1386c9.js"></script>
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<title>Patterson Singapore</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
+	<link rel="icon" href="./assets/img/favicon.png">  
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css">
 </head>
 <body>
-	<div id="sidebar">
-		<i id="closeBtn" class="fas fa-times"></i>
-		<div id="sideLogo">
-			<img src="./img/logo_white.png">
-		</div>
-		<ul>
-			<li><a class="active" href="index.html">Home</a></li>
-<!-- 			<li><a href="operations.html">Operations</a></li>
-			<li><a href="events.html">Events</a></li>
-			<li><a href="contact.html">Contact</a></li> -->
-		</ul>		
-	</div>
+	<script type="text/javascript">
+		var photoIndex = -1;
+	</script>
+	<header>
+		<a href="index.html"><img src="assets/img/Patterson.png"></a>
+		<nav>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</nav>
+	</header>
 
-	<div id="firstSection">
-		<div class="lineCross">
-			<div class="toggle-btn">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-			<a href="index.html"><img src="./img/logo.png"></a>	
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/main.jpg)"></div>
+		<div class="hero-content-area">
+			<h1>Patterson Pump (Singapore)</h1>
+			<h3>World's leading supplier of quality pumps</h3>
+			<a href="contact.html" class="btn">Contact Us</a>
 		</div>
-		<div id="firstIntro">
-			<h1>Patterson Pump Company</h1>
-			<hr>
-			<p>One of the world's leading suppliers of quality pumps for the Fire, Municipal, Industrial, Flood Control, Plumbing, and HVAC Markets.</p>
-			<a href="http://www.pattersonpumps.com"><button>Learn More</button></a>
-		</div>
-	</div>
+	</section>
+
+	<section class="traits">
+		<ul class="grid">
+			<li>
+				<i class="icon calendar check outline"></i>
+				<h4>On Time</h4>
+				<p>Patterson Pump is a <strong><em>real</em></strong> fire pump manufacturer. Unlike some of our competitors who buy fully machined pump cases and assemble / test their pumps, Patterson does all machining of case/impeller/shaft, fabrication of fuel tanks in-house. With better quality controls and the ability to detect defects during the manufacturing process, Patterson is able to deliver order on time.</p>
+			</li>
+			<li>
+				<i class="icon thumbs up outline"></i>
+				<h4>Six Sigma Quality Programme</h4>
+				<p>Patterson implementation of Six Sigma program optimized level of performance. That's overall excellence not only in a world-class finished product, but also in the administrative, service and manufacturing processes throughout the company. Patterson's Six Sigma program is a proven methodology that standardizes the right tools and techniques, while providing working teams with step-wise progressions in applying these tools. The program has successfully enhanced Patterson's reputation for high-quality, reliable pump design, manufacture and service.</p>
+			</li>
+			<li>
+				<i class="icon fire extinguisher"></i>
+				<h4>Competence Distributors</h4>
+				<p>All Patterson distributors undergo thorough training on NFPA20. They are able not only to provide technical advice on NFPA20, they also have startup teams to perform startup at site. The accumulated years of experiences between all our Asian distributors is more than 300 years and supplied hundreds of firepumps in Asia.</p>
+			</li>
+			<li>
+				<i class="icon dollar sign"></i>
+				<h4>Competitive Pricing</h4>
+				<p>As the world's biggest firepump manufacturer, we are able to obtain quantitative discounts from our sub vendors which are passed on to customers accordingly.</p>
+			</li>
+		</ul>
+	</section>
+
+	<section class="events">
+		<h3 class="title">Past Events:</h3>
+		<hr>
+
+		<ul class="grid">
+			<div class="item" onclick="window.location.href='nfpa_2018.html'">
+				<img src="https://lh3.googleusercontent.com/etmnO-hbUwlUpN_Bi1lnujmxWIZSucRA86MTFupDNgxAceWaREIG8w0hch1-lfteOe3P_xdlUSdwZzaa9--QFNmqhPt8o3fKH6ft8VVm4y5ASp8Jh172QbF8SoshnvvyAbMFw3pSz11Wd0QUDLcJ4B5WATwGshWVfx9jcfF57Gc4adfJX9SDXFwS-RIpfXzdy8ib2xSNjJ3w38svmJAW-Px8NzE3V5Pp-cWk29u6l6JEVdzi-toYQCj4zaq6lf7fmlKVGN7Mi_3td9-0i3gjOWbCZ5A_HScE4hMfaTGdmc3vie8PqKls2iNsiS6AzB328Ca-jVkQkCsAEYHyWhhiqh8CfkxOpEOUI4M8miEVrwxEA-_pZm4ILmje__sibKQ4nwv5i3GLFlC2OI-eMi6bPAHlm2gZBKNEBkEMiQoPPyV_9UZjzmkug6zWUI9DB3sh4dl2cX-y6UNZq2uvqy-T4TgXswKw8j7PWw7r44DIpAvwDlMEpDJaMGVnuTKydPePX85wi9hZXLrZt_HA1QOzHY7zPPpp--yZwmxp6RB5BHlL4Z0gGhSqmv7M-XN9ZKT3n9q1Kh6Zrxke8rQsPQGMY8sH4lN6ZupWDlGv-98LrhZeP-zFFmUDEdyrK09sme4b3bVRDCVeOnXJPbwuImq9GiZxx-ScQfPnrIPoeTXfPfpVxOLk8iYUx5bKf3IHVdU8-0zGh8tHTB4IQYl4ExhcIw_X=w1278-h850-no">
+				<i class="icon eye"></i>
+				<p>NFPA 2018</p>
+			</div>	
+			<div class="item" onclick="window.location.href='dinner_2019.html'">
+				<img src="https://lh3.googleusercontent.com/cbchOjUh0cxhsr8FFiCIrTMb19AHpbEBCZfNopYvBrRm4LKSD64WJsss7MN3utx6KV8OSKO7mwDsIhZDzn2V7L8HFLvnaU5R8mwrXUEV7rRsHGmr3GJyuSRhOc0vCFtkXs7DGbclpqdWswCBXordh5A11s3qQBdUN8MIYEFKONXTfjLM5OtnFgY74aIj_7tnC0eALZPEWIWxALKuOwTWO20IK-MuyBxQdjZ3DA4AKK1czX6ui2Nfp8hZx7p12TU7nFldSU6TYfXqW7r2zi_MDYls4tlyjZ2oGlwlAKTOeUJIj1ycgGJPaWM861E9NSpI-dmGGILEQzmVLAfI--Oaoxqqx-v_XieVZd1L_U1AKw_CkInhFMIG3tv9hUcBl47E1AQrdqulG0Ie6T-JyzGOKJnzKoEdtV1D0ZbATyxt6ASGI7KDAtWbnHi5mOisWjPCAm6k4ff4SZ_YTVs7PfkSL2IileNP6f6HhyNrE6ruqk-_hnSsZ4wzbgLuMgeltJJFo1FtF-gDdt6OLBQNZWuCYIrYNMKn6-Jd6FXq2AdeOZHkIsquCcxmaZUdDCACvZmrGn52k2JzjoSlp1Ys3o1whGy9Abuj64-BhpIG0RrP-L09krC3Ihy3XcIznp7ckTe4tv4QTXJyMgNSn7q1idFCNOHgm515dUI=w1278-h850-no">
+				<i class="icon eye"></i>
+				<p>Patterson Dinner 2019</p>
+			</div>	
+		</ul>
+
+		<!-- <a href="#"><button>View All Events</button></a> -->
+	</section>
 
 	<footer>
-		<div id="icon">
-			<a href="mailto:chlow@pattersonsingapore.com"><i class="fas fa-envelope"></i></a>
-			<a href="tel:+65-96340303"><i class="fas fa-phone"></i></a>
-			
-		</div>
-		<div>
-			<p id="infoText"></p>
-		</div>
+		<h4>Patterson Pump Far East</h4>
+		<p>Formed on 1st May 2011 as part of Patterson Pump Company USA, its primary role is to establish a distribution network and to provide sales, technical and after sales services supports for Patterson Pump Company in the Far East markets covering more than 12 countries.</p>
 	</footer>
-
-	<script type="text/javascript" src="./js/patterson.js"></script>
-<!-- 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
- -->
 </body>
 </html>

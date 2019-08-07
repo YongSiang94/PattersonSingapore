@@ -1,0 +1,43 @@
+/*Footer Section*/
+footer {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+	background-color: rgba(0,0,0,.9);
+}
+
+footer {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 50px;
+	text-align: center;
+}
+footer h4 {
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+footer p { 
+	font-size: 15px;
+	color: gray;
+	margin: 0 20%;
+}
+
+@media screen and (max-width: 900px) {
+	footer h4 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	footer p {
+		font-size: 15px;
+		margin: 0 10%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	footer {
+		display:none;
+	}
+}
