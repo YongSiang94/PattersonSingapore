@@ -1,0 +1,154 @@
+.gallery.intro {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(0,3,9);
+}
+
+@media (min-width: 576px) {
+  .gallery.intro {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0,3,9);
+  }
+}
+
+.gallery.intro h1 span {
+  font-weight: 300;
+}
+
+.gallery.intro h1 {
+  font-weight: 700;
+}
+
+.gallery.intro h1 {
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .gallery.intro h1 {
+    font-size: 25px;
+  }
+}
+
+.gallery.intro p {
+  padding-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .gallery.intro p {
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+}
+
+.gallery.intro a {
+  margin-bottom: 30px;
+}
+
+.gallery.past-gallery {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.gallery.past-gallery h1 {
+  font-weight: 400;
+}
+
+.card {
+  border: none;
+}
+
+.gallery.intro img {
+  width: 500px;
+}
+
+.gallery.past-gallery h1 {
+  padding-bottom: 50px;
+}
+
+/* Photo Gallery */
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #eee;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .list {
+  width: 100%;
+  max-width: 768px;
+  margin-top: 25px;
+}
+
+main .list .item {
+  padding: 15px;
+}
+
+main .list .item:last-of-type {
+  border-bottom: none;
+}
+
+main .list .item:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+#pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#pagination button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.4s;
+  color: #000;
+  font-size: 10px;
+  text-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+}
+
+#pagination button:hover {
+  background-color: rgb(204,205,204);
+}
+
+#pagination button.active {
+  border: 1px solid black;
+}
+
+.image-holder {
+  padding: 3px;
+  margin: 0 auto 10px;
+}
+

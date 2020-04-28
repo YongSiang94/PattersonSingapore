@@ -1,0 +1,186 @@
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark.flex-grow-0 {
+  background-color: #000!important;
+  opacity: 0.9;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 13px;
+}
+
+.nav-link .icon {
+  font-size: 21px;
+  line-height: 0;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.product {
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: 5px;
+}
+
+.product h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.product h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.product h2 {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+.footer-legal.region img {
+  height: 20px;
+}
+
+.product.dark a {
+  color: white;
+}
+
+.dark {
+  color: white;
+}
+
+.nav-link img {
+  line-height: 0;
+  height: 50px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .product.landing {
+    height: 100vh;
+    background-color: #f9f9f9;
+  }
+}
+
+.product span i .fa {
+  color: white;
+}
+
+.product h1 i {
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product.cleanwater span {
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.product.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.float-md-right.region img {
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.bg-dark {
+  background-color: #000!important;
+}
+
+.col.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: baseline;
+}
+
+.col.footer-nav .space {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-toggle:focus {
+  outline: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+}
+
+.dropdown-menu {
+  margin-right: 100px;
+  background-color: black;
+}
+
+.dropdown-menu a {
+  color: white;
+}
+
+.dropdown-menu a:hover {
+  color: rgba(255,255,255,0.7);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+@media (min-width: 300px) {
+  .mobile-cross {
+    display: inline-block;
+    transition: transform 500ms;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 576px) {
+  .mobile-cross {
+    display: none;
+  }
+}
+
+.footer-cat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: none;
+}
+
+@media (min-width: 576px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
