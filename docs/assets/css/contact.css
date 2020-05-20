@@ -65,19 +65,19 @@ textarea {
   background-color: black;
 }
 
-#contact-form input::-webkit-input-placeholder {
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
   color: transparent;
 }
 
-#contact-form input:-moz-placeholder {
+#contact-form input:-moz-placeholder, #contact-form textarea:-moz-placeholder {
   color: transparent;
 }
 
-#contact-form input::-moz-placeholder {
+#contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder {
   color: transparent;
 }
 
-#contact-form input:-ms-input-placeholder {
+#contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {
   color: transparent;
 }
 
