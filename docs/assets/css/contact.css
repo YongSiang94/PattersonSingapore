@@ -64,3 +64,20 @@ textarea {
   color: white;
   background-color: black;
 }
+
+#contact-form input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+#contact-form input:-moz-placeholder {
+  color: transparent;
+}
+
+#contact-form input::-moz-placeholder {
+  color: transparent;
+}
+
+#contact-form input:-ms-input-placeholder {
+  color: transparent;
+}
+
