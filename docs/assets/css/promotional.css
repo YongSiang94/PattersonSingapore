@@ -1,0 +1,93 @@
+.row .col-md-6.product {
+  border-left: 5px solid white;
+}
+
+.row .col-md-6.product.aqua {
+  border-right: 5px solid white;
+}
+
+.heading {
+  padding: 50px 100px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-weight: 300;
+}
+
+button {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.no-fill-dropdown {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.directionHolder {
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.directionParagraph {
+  color: rgb(92,89,89);
+}
+
+.col.form-field {
+  margin: 20px;
+  background: transparent;
+  outline: none !important;
+}
+
+.form-control:focus, .form-control:active {
+  background: transparent;
+}
+
+.get-in-touch h1 {
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  .get-in-touch h1 {
+    font-size: 40px;
+  }
+}
+
+.countries-photo {
+  display: none;
+}
+
+#countries-list {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #countries-list {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .countries-photo {
+    display: block;
+  }
+}
+
+.countries-photo .row {
+  margin-top: 20px;
+}
+
+.countries-photo .col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries-photo .col img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
