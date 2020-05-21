@@ -81,3 +81,15 @@ textarea {
   color: transparent;
 }
 
+#contact_explain {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  #contact_explain {
+    display: block;
+    font-size: 13px;
+    padding: 0 30px;
+  }
+}
+
