@@ -26,12 +26,11 @@
     <link rel="stylesheet" href="../assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="../assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="../assets/css/newsroom.css">
-    <link rel="stylesheet" href="../assets/css/product.css">
     <link rel="stylesheet" href="../assets/css/promotional.css">
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
-<body>
+<body style="background-color: rgb(237,234,234);">
     <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark flex-grow-0">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -47,10 +46,10 @@
             </div>
         </div>
     </nav>
-    <div class="pump-section">
+    <div>
         <section style="display:flex; flex-direction:row; justify-content:space-between">
             <div class="container" style="height:50px; display:flex; flex-direction: row; align-items:center;">
-                <h4 style="font-size:13px">Newsroom</h4>
+                <h4 class="nav_bottom_title">Newsroom</h4>
             </div>
         </section>
         <hr style="margin:0; padding:0">
@@ -58,15 +57,142 @@
     <section class="news-section">
         <div class="container">
             <div class="row">
-                <div class="col news-info">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="update-heading">UPDATE</h6>
-                            <h4 class="card-title">Covid19 Update</h4>
-                            <h6 class="text-muted card-subtitle mb-2">Letter from Patterson Pump Company President</h6><a class="card-link" href="http://pattersonpumps.com/assets/pdf/COVID-19%20Patterson%20Pump%20Company.pdf">Read more</a></div>
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card pulse animated news-container row-news" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/COVID-19%20Patterson%20Pump%20Company.pdf&quot;)">
+                            <div class="card-body">
+                                <h6 class="card-title update-heading">update</h6>
+                                <h5 class="news-title">COVID19 Update</h5>
+                                <p class="news-date">April, 2019</p>
+                            </div><img class="card-img w-100 d-block" src="../assets/img/newsroom/covid.jpg">
+                            <div class="overlay_right"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="col news-image"><img src="../assets/img/newsroom/covid.jpg"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/Patterson%20Pump%20Company%20Approved%20through%20Hydraulic%20Institute%E2%80%99s%20Pump%20Test%20Lab%20Approval%20Program.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/HI_lab.png">
+                            <div class="card-body">
+                                <h6 class="card-title approvals-heading">approvals</h6>
+                                <h5 class="news-title">Pump Test Lab Approval</h5>
+                                <p class="news-date">April, 2019</p>
+                                <p class="description">Patterson Pump Company Approved through Hydraulic Institute's Pump Test Lab Approval Program.<br></p>
+                            </div>
+                        </div>
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/Ireland%20Magazine%20Page.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/international_fire_protection.png">
+                            <div class="card-body">
+                                <h6 class="card-title in_the_news-heading">IN THE NEWS</h6>
+                                <h5 class="news-title">International Fire Protection</h5>
+                                <p class="news-date">September, 2018</p>
+                                <p class="description">Patterson Pump Company awarded&nbsp;<span>Best Fire Fighting Pump Manufacturer</span><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/2018%20Irish%20Enterprise%20Award%20-%20IEA18031%20-%206%20Page%20Brochure.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/Irish%20Enterprise%20Awards.png">
+                            <div class="card-body">
+                                <h6 class="card-title in_the_news-heading">In the news</h6>
+                                <h5 class="news-title">Irish Enterprise Awards</h5>
+                                <p class="news-date">April, 2018</p>
+                                <p class="description">Patterson Pump Company awarded&nbsp;<span>Best Fire Fighting Pump Manufacturer</span><br></p>
+                            </div>
+                        </div>
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/modelDonate.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/lsu_cee.png">
+                            <div class="card-body">
+                                <h6 class="card-title in_the_news-heading">IN THE NEWS</h6>
+                                <h5 class="news-title">PCCP Demo Model to CEE</h5>
+                                <p class="news-date">October 6, 2016</p>
+                                <p class="description">Permanent Canal Closures and Pumps Project Demonstration Model Donated to LSU's Civil and Environmental Engineering Department.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/NSF61Certificate.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/aquaflo_control.jpg">
+                            <div class="card-body">
+                                <h6 class="card-title approvals-heading">Approvals</h6>
+                                <h5 class="news-title">Aqua-FloPac Booster</h5>
+                                <p class="news-date">August, 2019</p>
+                                <p class="description">Patterson Pump Company Introduces NSF/ANSI 61 Certified Aqua-FloPac Booster Plumbing Packages.<br></p>
+                            </div>
+                        </div>
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/461631%20ISO%20Cert%20Release.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/ISO14001.png">
+                            <div class="card-body">
+                                <h6 class="card-title update-heading">UPDATE</h6>
+                                <h5 class="news-title">ISO 14001:2004</h5>
+                                <p class="news-date">December 23, 2009</p>
+                                <p class="description">Patterson Pump Company Achieves ISO 14001:2004 Certification.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card news-container row-news" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/londonavequickrelease.pdf&quot;)">
+                            <div class="card-body">
+                                <h6 class="card-title update-heading">update</h6>
+                                <h5 class="news-title">Impossibility at New Orleans London Avenue Canal Station</h5>
+                                <p class="news-date">April 9, 2007</p>
+                            </div><img class="card-img w-100 d-block" src="../assets/img/newsroom/PCCP.png">
+                            <div class="overlay_right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card news-container row-news" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/velasco.pdf&quot;)">
+                            <div class="card-body">
+                                <h6 class="card-title update-heading">update</h6>
+                                <h5 class="news-title">Massive Pumps for Leeve Protection</h5>
+                                <p class="news-date">June 16, 2006</p>
+                            </div><img class="card-img w-100 d-block" src="../assets/img/newsroom/leeve_protection.png">
+                            <div class="overlay_right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card-group">
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/460367StadiumAdscreen.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/football.jpg">
+                            <div class="card-body">
+                                <h6 class="card-title in_the_news-heading">in the news</h6>
+                                <h5 class="news-title">Guarding Safety of over 70,000 Fans</h5>
+                                <p class="news-date">&nbsp;</p>
+                                <p class="description">Guarding The Safety of Over 70,000 Fans Makes Patterson the MVP.<br></p>
+                            </div>
+                        </div>
+                        <div class="card news-container" data-aos="fade-up" data-aos-once="true" onclick="customRedirect(&quot;https://pattersonpumps.com/assets/pdf/reconstruction.pdf&quot;)">
+                            <div class="overlay_up"></div><img class="card-img w-100 d-block news-image" src="../assets/img/newsroom/iraq_reconstruction.jpg">
+                            <div class="card-body">
+                                <h6 class="card-title in_the_news-heading">IN The NEWS</h6>
+                                <h5 class="news-title">PPC Aids Iraq Reconstruction</h5>
+                                <p class="news-date">February, 2004</p>
+                                <p class="description">Patterson Pump Company Aids Iraq Reconstruction.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
