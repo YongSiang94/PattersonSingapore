@@ -1,5 +1,6 @@
 .row .col-md-6.product {
-  border-left: 5px solid white;
+  border-left: 2.5px solid white;
+  border-right: 2.5px solid white;
 }
 
 .row .col-md-6.product.aqua {

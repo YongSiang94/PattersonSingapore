@@ -59,6 +59,7 @@
 @media (min-width: 768px) {
   .description {
     display: block;
+    padding: 10px;
   }
 }
 
@@ -88,9 +89,9 @@
 
 @media (min-width: 576px) {
   .hide-sm {
-    display: flex;
+    display: block;
     justify-content: center;
-    align-content: center;
+    /*align-content: center;*/
     align-items: center;
   }
 }
