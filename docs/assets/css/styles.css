@@ -190,3 +190,8 @@ input:focus, textarea:focus, select:focus {
   margin: 0;
 }
 
+.dropdown-item {
+  font-size: 13px;
+}
+
+
