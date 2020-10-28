@@ -1,2 +1,2 @@
 # PattersonSingapore
-Patterson Far East
+Patterson Singapore Public Front-end Website (www.pattersonsingapore.com)
