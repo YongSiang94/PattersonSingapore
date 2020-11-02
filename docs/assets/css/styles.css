@@ -165,11 +165,6 @@ body {
   background: none;
 }
 
-.footer-cat i {
-  display:flex;
-  opacity: 1;
-}
-
 @media (min-width: 576px) {
   .collapse.dont-collapse-sm {
     display: block;
