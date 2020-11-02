@@ -171,11 +171,18 @@ body {
   background: none;
 }
 
+.footer-cat i {
+  display:flex;
+}
+
 @media (min-width: 576px) {
   .collapse.dont-collapse-sm {
     display: block;
     height: auto !important;
     visibility: visible;
+  }
+  .footer-cat i {
+    display:none;
   }
 }
 
