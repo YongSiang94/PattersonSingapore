@@ -167,6 +167,7 @@ body {
 
 .footer-cat i {
   display:flex;
+  opacity: 1;
 }
 
 @media (min-width: 576px) {
@@ -177,6 +178,7 @@ body {
   }
   .mobile-cross, .footer-cat i {
     display: none;
+    opacity: 0;
   }
 }
 
