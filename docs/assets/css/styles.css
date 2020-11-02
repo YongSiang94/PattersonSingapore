@@ -158,12 +158,6 @@ body {
   transform: rotate(180deg);
 }
 
-@media (min-width: 576px) {
-  .mobile-cross {
-    display: none;
-  }
-}
-
 .footer-cat {
   display: flex;
   flex-direction: row;
@@ -181,8 +175,8 @@ body {
     height: auto !important;
     visibility: visible;
   }
-  .footer-cat i {
-    display:none;
+  .mobile-cross, .footer-cat i {
+    display: none;
   }
 }
 
