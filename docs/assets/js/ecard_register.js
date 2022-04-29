@@ -1,0 +1,1 @@
+document.querySelector("input[name='url']").value = window.location.href.split("/").pop().replace(".html", "");
