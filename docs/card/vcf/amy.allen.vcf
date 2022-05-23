@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.3.1//EN
+N:Allen;Amy;;;
+FN:Amy Allen
+ORG:Patterson Pump Company;
+TITLE:HVAC & Flo-Pak Parts Specialist
+EMAIL;type=INTERNET;type=WORK;type=pref:amy.allen@pattersonpumps.com
+TEL;type=WORK;type=VOICE;type=pref:+17062972836
+END:VCARD

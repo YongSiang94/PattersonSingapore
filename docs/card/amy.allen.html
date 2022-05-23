@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>eCard Activation</title>
+    <title>Amy's eCard</title>
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/img/favicon/ecard/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/ecard/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/ecard/favicon-32x32.png">
@@ -16,84 +16,20 @@
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
 </head>
 
-<body class="d-flex flex-row justify-content-center align-items-center">
-    <section class="d-flex flex-column justify-content-center align-items-center my-5" style="max-width: 800px;"><img class="mb-3" src="../assets/img/logo/nav_logo.png" style="max-height: 40px;">
-        <div class="container">
-            <div class="row mb-4 mb-lg-5">
-                <div class="col col-md-8 col-xl-6 text-center mx-auto">
-                    <p class="fw-bold text-success mb-2">eCard</p>
-                    <h1 class="fw-bold">Activation</h1>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col">
-                    <form class="d-flex flex-column" data-bss-recipient="0447313f22650467d2d22d86ca74bf59" data-bss-success-title="Please allow up to 24 hrs for your card to be activated." data-bss-success-message="Your details are undergoing system checks..." data-bss-subject="Activation of eCard">
-                        <div class="form-row">
-                            <div class="col-12 mb-2">
-                                <div class="hidden">
-                                    <h4 class="input_header pl-3">URL Identifier</h4><input class="form-control input_text" type="text" style="text-align: left;" name="url">
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Name</h4><input class="form-control input_text" type="text" style="text-align: left;" name="name" required="">
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Position</h4><input class="form-control input_text" type="text" name="position" style="text-align: left;" required="">
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Company</h4><input class="form-control input_text" type="text" name="Company" style="text-align: left;" required="">
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Self Introduction / Description</h4><textarea class="form-control input_text" style="width:100%; height: 150px; text-align:left; display:block; overflow-y: scroll;" name="introduction"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Country</h4><input class="form-control input_text" type="text" id="countryInput" style="text-align: left;" name="Country" required="">
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Mobile / Cell Number</h4>
-                                    <div class="d-flex flex-row justify-content-between"><input class="form-control input_text" type="tel" pattern="[0-9]*" style="text-align:left;" name="mobile"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Office Number</h4>
-                                    <div class="d-flex flex-row justify-content-between"><input class="form-control input_text" type="tel" pattern="[0-9]*" style="text-align:left;" name="office"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Email</h4>
-                                    <div class="d-flex flex-row justify-content-between"><input class="form-control input_text" type="email" required="" name="email" style="text-align: left;"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2">
-                                <div>
-                                    <h4 class="input_header pl-3">Upload Profile Picture</h4><input class="form-control-file" type="file">
-                                    <div class="d-flex flex-row justify-content-between"></div>
-                                </div>
-                            </div>
-                        </div><button class="btn btn-outline-success my-3" type="submit">Confirm!</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+<body class="d-flex flex-column align-items-center" style="height: 100%;"><img class="my-3" src="../assets/img/logo/nav_logo.png" style="max-height: 40px;">
+    <h2 class="text-center px-3 mb-5">Patterson Pump Company</h2>
+    <h3>Amy Allen</h3>
+    <h6 class="mb-3" style="color: var(--gray); font-weight: light">HVAC & Flo-Pak Parts Specialist</h6>
+    <button class="btn btn-outline-primary text-monospace font-weight-bold" type="button">
+    <style type="text/css"> 
+        a:hover {
+            color: white;
+            text-decoration:none;
+        }
+    </style>
+    <a href="./vcf/amy.allen.vcf"><i class="fa-solid fa-floppy-disk mr-2"></i>Save Contact</a></button>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../assets/js/smart-forms.min.js"></script>
-    <script src="../assets/js/autocomplete_country.js"></script>
-    <script src="../assets/js/ecard_register.js"></script>
 </body>
 
 </html>
