@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.3.1//EN
+N:Murazzi;Michael;;;
+FN:Michael Murazzi
+ORG:Morrison Pump Company;
+EMAIL;type=INTERNET;type=WORK;type=pref:michael.murazzi@morrisonpump.com
+TEL;type=CELL;type=VOICE;type=pref:+19542583669
+TEL;type=WORK;type=VOICE:+19549225880
+END:VCARD
