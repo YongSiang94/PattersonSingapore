@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.6//EN
+N:Bailey;Paula;;;
+FN:Paula Bailey
+ORG:Patterson Pump Company;
+TITLE:Order Entry Clerk
+EMAIL;type=INTERNET;type=WORK;type=pref:paula.bailey@pattersonpumps.com
+TEL;type=WORK;type=VOICE;type=pref:+17068862806
+END:VCARD
