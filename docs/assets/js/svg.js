@@ -1,9 +1,7 @@
-/* jquery.js */
-/* jquery.velocity.js */
-
-// Animate the SVG stroke to make it seem like it is writing itself.
-
-$(".path-first")
+document.querySelector("#steps").classList.add("d-none");
+function animateSVG() {
+    document.querySelector("#thank-you").classList.remove("d-none");
+    $(".path-first")
   .velocity({ "stroke-dashoffset": 1800 }, 0)
   .velocity({ "stroke-dashoffset": 0 }, { duration: 2550, delay: 0 });
 
@@ -27,5 +25,14 @@ $(".path-fifth")
 $(".path-sixth")
   .velocity({ "stroke-dashoffset": 600 }, 0)
   .velocity({ "stroke-dashoffset": 0 }, { duration: 1000, delay: 3450 });
+}
 
-  
+function unhideSection() {
+    animateSVG();
+    setTimeout(function() {
+        document.querySelector("#scroll_down").classList.remove("d-none");
+        document.querySelector("#steps").classList.remove("d-none");
+    }, 4450);
+}
+unhideSection();
+    
