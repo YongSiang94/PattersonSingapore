@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.6//EN
+N:Adams;Austin;;;
+FN:Austin Adams
+ORG:Patterson Pump Company;
+TITLE:Core Infrastructure Technician
+EMAIL;type=INTERNET;type=WORK;type=pref:austin.adams@gormanrupp.com
+TEL;type=CELL;type=VOICE;type=pref:+17062443743
+TEL;type=WORK;type=VOICE:+17062972816
+END:VCARD
