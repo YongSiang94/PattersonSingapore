@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.0.1//EN
+N:Pearson;Joyce;A;;
+FN:Joyce A Pearson
+ORG:Patterson Pump Company;
+TITLE:HVAC & Plumbing Sales
+EMAIL;type=INTERNET;type=WORK;type=pref:joyce.pearson@pattersonpumps.com
+TEL;type=CELL;type=VOICE;type=pref:+16786426773
+TEL;type=WORK;type=VOICE:+17062972946
+END:VCARD
